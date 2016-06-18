@@ -1,0 +1,16 @@
+---
+---
+<script type="text/javascript">
+window.onload=function(){
+var main=document.getElementById("main");
+var t="If you are not forwarded, please click the link <br /><a href=";
+var u=document.URL.split('#');
+page=u[u.length-1];
+{% if site.rootRedirect == true %}var r="{{ site.root }}"
+if(u.lenth==undefined){window.location.href=r;main.innerHTML=t+r+">"+r+"</a>";}{% endif %}
+var items=[{% for item in site.data.short %}["{{ item.from }}","{{ item.to }}"],{% endfor %}];
+for(var i=0;i<items.length;i++){
+if(page==items[i][0]){
+window.location.href=items[i][1];
+main.innerHTML=t+items[i][1]+">"+items[i][1]+"</a>";}}}
+</script><div id="main" style="text-align:center;"></div>

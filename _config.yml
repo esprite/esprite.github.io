@@ -1,0 +1,12 @@
+title: "Domain Shortner"
+root: "http://www.7blink.com"
+rootRedirect: true
+
+#Short domains main url, used as prefix for all links in /add
+url: "https://www.7bl.ink"
+
+#Add new link redirect.  This should be a link to the short.csv git page.
+add: "https://www.github.com/7blink"
+
+
+readme: "https://www.github.com/7blink"
