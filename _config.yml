@@ -3,7 +3,7 @@ title: "Domain Shortner"
 #Do you want to redirect the root?
 #Example www.7bl.ink redirects to www.7blink.com
 #Whereas all other links will begin with "www.7bl.ink/#" followed by the short name.
-root: "http://ctrl.moe/404/"
+root: "http://ctrl.moe/blog/"
 rootRedirect: true
 #Short domains main url, used as prefix for all links in /add
 url: "http://ctrl.moe"
