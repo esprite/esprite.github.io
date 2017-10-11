@@ -3,14 +3,14 @@ title: "Domain Shortner"
 #Do you want to redirect the root?
 #Example www.7bl.ink redirects to www.7blink.com
 #Whereas all other links will begin with "www.7bl.ink/#" followed by the short name.
-root: "http://www.7blink.com"
+root: "http://ctrl.moe"
 rootRedirect: true
 
 #Short domains main url, used as prefix for all links in /add
-url: "http://www.7bl.ink"
+url: "http://ctrl.moe"
 
 #Add new link redirect.  This should be a link to the short.csv git page.
-add: "https://github.com/7blink/name-shortener/blob/gh-pages/_data/short.csv"
+add: "https://github.com/esprite/name-shortener/blob/gh-pages/_data/short.csv"
 
 
-readme: "https://github.com/7blink/name-shortener/blob/gh-pages/README.md"
+readme: "https://github.com/esprite/name-shortener/blob/gh-pages/README.md"
