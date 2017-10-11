@@ -9,7 +9,7 @@ rootRedirect: true
 url: "http://ctrl.moe"
 
 #Add new link redirect.  This should be a link to the short.csv git page.
-add: "https://github.com/esprite/esprite.github.io/blob/gh-pages/_data/short.csv" 
+add: "https://github.com/esprite/esprite.github.io/blob/master/_data/short.csv" 
 
 
-readme: "https://github.com/esprite/esprite.github.io/blob/gh-pages/README.md"
+readme: "https://github.com/esprite/esprite.github.io/blob/master/README.md"
